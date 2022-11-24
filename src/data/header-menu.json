@@ -1,26 +1,32 @@
 [
   {
     "text": "Home",
-    "link": "#"
+    "href": "#",
+    "current": true
   },
   {
     "text": "About us",
-    "link": "#"
+    "href": "#",
+    "current": false
   },
   {
     "text": "Facilities",
-    "link": "#"
+    "href": "#",
+    "current": false
   },
   {
     "text": "Membership",
-    "link": "#"
+    "href": "#",
+    "current": false
   },
   {
     "text": "Testimonials",
-    "link": "#"
+    "href": "#",
+    "current": false
   },
   {
     "text": "Blog",
-    "link": "#"
+    "href": "#",
+    "current": false
   }
 ]
