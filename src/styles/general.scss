@@ -1,5 +1,7 @@
 @use './partials/vars' as *;
 
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
 * {
   margin: 0;
   padding: 0;
@@ -8,6 +10,7 @@
 
 body {
   background-color: $material-design-wooksmoke;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .container {
