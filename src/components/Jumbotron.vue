@@ -1,10 +1,8 @@
-
 <script>
 export default {
   name: 'Jumbotron'
 }
 </script>
-
 
 <template>
   <div class="jumbotron">
@@ -15,7 +13,6 @@ export default {
     <div class="button"><a href="#">Join us today</a></div>
   </div>
 </template>
-
 
 <style lang="scss" scoped>
   @use '../styles/partials/vars' as *;
