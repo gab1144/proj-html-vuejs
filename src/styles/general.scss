@@ -1,5 +1,6 @@
 @use './partials/vars' as *;
 
+//Google Fonts Josefin Sans
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 
 * {
@@ -9,8 +10,8 @@
 }
 
 body {
-  background-color: $material-design-wooksmoke;
   font-family: 'Josefin Sans', sans-serif;
+  color: $color-cube-white;
 }
 
 .container {

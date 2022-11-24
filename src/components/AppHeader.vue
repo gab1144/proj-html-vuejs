@@ -41,10 +41,10 @@
     .container{
       @include vCenterSpcBtw();
       max-width: none;
-      width: 100%;
-      padding: 20px;
+      width: 90%;
+      padding: 20px 0;
       .logo img{
-        height: 80px;
+        height: 150px;
       }
       ul {
         display: flex;
@@ -60,7 +60,7 @@
         text-decoration: none;
         text-transform: uppercase;
         display: inline-block;
-        color: white;
+        color: $color-cube-white;
           &:hover,
           &.active{
           color: $color-cube-chestnut-rose;
