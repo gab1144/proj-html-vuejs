@@ -1,0 +1,22 @@
+[
+  {
+    "service": "Strength & Conditioning",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci perferendis autem aspernatur, labore dicta nisi debitis quod voluptates quis deserunt iste. Libero ad accusantium quis, odio molestiae possimus reiciendis! Accusamus!",
+    "icon": "fa-solid fa-link-slash"
+  },
+  {
+    "service": "Fitness & Cardio",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci perferendis autem aspernatur, labore dicta nisi debitis quod voluptates quis deserunt iste. Libero ad accusantium quis, odio molestiae possimus reiciendis! Accusamus!",
+    "icon": "fa-solid fa-bicycle"
+  },
+  {
+    "service": "Flexibility & Rest",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci perferendis autem aspernatur, labore dicta nisi debitis quod voluptates quis deserunt iste. Libero ad accusantium quis, odio molestiae possimus reiciendis! Accusamus!",
+    "icon": "fa-solid fa-infinity"
+  },
+  {
+    "service": "Health & Diet",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci perferendis autem aspernatur, labore dicta nisi debitis quod voluptates quis deserunt iste. Libero ad accusantium quis, odio molestiae possimus reiciendis! Accusamus!",
+    "icon": "fa-solid fa-heart-pulse"
+  }
+]

@@ -2,12 +2,16 @@
 
   import QualitySection from './QualitySection.vue';
   import SignUpSection from './SignUpSection.vue';
+  import ReviewSection from './ReviewSection.vue';
+  import ServicesSection from './ServicesSection.vue';
 
   export default{
     name: 'AppMain',
     components:{
       QualitySection,
-      SignUpSection
+      SignUpSection,
+      ServicesSection,
+      ReviewSection
     }
   }
 </script>
@@ -17,6 +21,10 @@
     <QualitySection/>
 
     <SignUpSection/>
+
+    <ServicesSection/>
+
+    <ReviewSection/>
   </main>
 </template>
 
