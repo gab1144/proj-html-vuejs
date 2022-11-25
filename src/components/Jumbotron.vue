@@ -35,6 +35,7 @@ export default {
     }
     .button {
       border: 1px solid $color-cube-white;
+      background: none;
       text-transform: uppercase;
       font-weight: 500;
       font-size: 15px;

@@ -17,3 +17,23 @@
   align-items: center;
   justify-content: space-between;
 }
+
+@mixin divider($type: "xx-red"){
+  &::after{
+    margin-top: 20px;
+    display: block;
+    text-align: center;
+    @if $type == 'xx-red'{
+      content: url("/divider-xx-red.png");
+    } @else if $type == 'x-red'{
+      content: url("/divider-x-red.png");
+    } @else if $type == 'white'{
+      content: url("/divider-white-xx.png");
+    }
+  }
+}
+
+@mixin sectionContainer(){
+  padding: 100px 0;
+  @include centerFlex('horizontal');
+}
