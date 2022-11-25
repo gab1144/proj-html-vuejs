@@ -4,6 +4,7 @@
   import SignUpSection from './SignUpSection.vue';
   import ReviewSection from './ReviewSection.vue';
   import ServicesSection from './ServicesSection.vue';
+  import FacilitiesSection from './FacilitiesSection.vue';
 
   export default{
     name: 'AppMain',
@@ -11,7 +12,8 @@
       QualitySection,
       SignUpSection,
       ServicesSection,
-      ReviewSection
+      ReviewSection,
+      FacilitiesSection
     }
   }
 </script>
@@ -25,6 +27,8 @@
     <ServicesSection/>
 
     <ReviewSection/>
+
+    <FacilitiesSection/>
   </main>
 </template>
 
