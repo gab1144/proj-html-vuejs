@@ -2,6 +2,7 @@
 
   import TrainerCard from './TrainerCard.vue';
   import trainers from '../data/trainers'
+  
   export default{
     name: 'TrainersSection',
     components:{
