@@ -8,6 +8,7 @@
   import QuoteSection from './QuoteSection.vue';
   import TrainersSection from './TrainersSection.vue';
   import PerformanceNewsSection from './PerformanceNewsSection.vue';
+  import JoinSection from './JoinSection.vue';
 
   export default{
     name: 'AppMain',
@@ -19,7 +20,8 @@
       FacilitiesSection,
       QuoteSection,
       TrainersSection,
-      PerformanceNewsSection
+      PerformanceNewsSection,
+      JoinSection
     }
   }
 </script>
@@ -41,6 +43,8 @@
     <TrainersSection/>
 
     <PerformanceNewsSection/>
+
+    <JoinSection/>
   </main>
 </template>
 
