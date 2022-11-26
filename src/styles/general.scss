@@ -53,3 +53,17 @@ body {
   top:0;
   border-top-color: $color-cube-shark; //chevron Color
 }
+
+.social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 50px;
+  aspect-ratio: 1;
+  background-color: $material-design-wooksmoke;
+  margin-right: 10px;
+  border-radius: 5px;
+  a {
+    color: $color-cube-white;
+  }
+}
