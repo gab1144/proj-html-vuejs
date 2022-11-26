@@ -41,6 +41,10 @@
       border: 0.5px solid $color-cube-white;
       padding: 15px;
       margin-top: 10px;
+      color: $color-cube-white;
+      &:focus {
+        outline:none;
+      }
     }
     .button{
       background-color: $color-cube-chestnut-rose;
