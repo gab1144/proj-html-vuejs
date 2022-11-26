@@ -1,0 +1,10 @@
+[
+  {
+    "days": "Weekdays Monday - Friday",
+    "times": "09:00 - 19:00"
+  },
+  {
+    "days": "Weekdends Saturday - Sunday",
+    "times": "09:00 - 21:00"
+  }
+]
