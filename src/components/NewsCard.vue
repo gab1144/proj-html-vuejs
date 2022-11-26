@@ -17,7 +17,7 @@
 <template>
   <div class="trainer-card">
     <div class="img-area">
-      <img :src="getImagePath(img)" :alt="name">
+      <img :src="getImagePath(img)" :alt="title">
     </div>
 
     <div class="text-area">

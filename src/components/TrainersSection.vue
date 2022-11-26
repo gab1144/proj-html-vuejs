@@ -30,6 +30,7 @@
         :description="trainer.description"
         :role="trainer.role"
         :img="trainer.img"
+        :links="trainer.links"
         />
       </div>
       <div>

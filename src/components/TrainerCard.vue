@@ -5,7 +5,8 @@
       name: String,
       description: String,
       role: String,
-      img: String
+      img: String,
+      links: Object
     },
     methods:{
       getImagePath(imageName){
@@ -28,15 +29,15 @@
       
       <div class="link-area">
         <div class="social-link">
-          <i class="fa-brands fa-facebook-f"></i>
+          <a :href="links.facebook"><i class="fa-brands fa-facebook-f"></i></a>
         </div>
 
         <div class="social-link">
-          <i class="fa-brands fa-twitter"></i>
+          <a :href="links.twitter"><i class="fa-brands fa-twitter"></i></a>
         </div>
 
         <div class="social-link">
-          <i class="fa-brands fa-instagram"></i>
+          <a :href="links.instagram"><i class="fa-brands fa-instagram"></i></a>
         </div>
       </div>
 
@@ -69,13 +70,7 @@
       display: flex;
       flex-wrap: wrap;
       .social-link {
-        @include centerFlex();
-        min-width: 50px;
-        aspect-ratio: 1;
-        background-color: $material-design-wooksmoke;
-        margin-right: 10px;
         margin-bottom: 30px;
-        border-radius: 5px;
       }
     }
   }
