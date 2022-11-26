@@ -34,3 +34,22 @@ body {
     height: 100%;
   }
 }
+
+.chevron-border-section {
+  position:relative;
+  bottom: -50px;
+  left: calc(50% - 25px);
+  display:block;
+  height:50px;
+  }
+.chevron-border-section::before,
+.chevron-border-section::after {
+  position:absolute;
+  display:block;
+  content:"";
+  border:25px solid transparent; //chevron size
+}
+.chevron-border-section::before {
+  top:0;
+  border-top-color: $color-cube-shark; //chevron Color
+}

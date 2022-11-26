@@ -6,6 +6,8 @@
   import ServicesSection from './ServicesSection.vue';
   import FacilitiesSection from './FacilitiesSection.vue';
   import QuoteSection from './QuoteSection.vue';
+  import TrainersSection from './TrainersSection.vue';
+  import PerformanceNewsSection from './PerformanceNewsSection.vue';
 
   export default{
     name: 'AppMain',
@@ -15,7 +17,9 @@
       ServicesSection,
       ReviewSection,
       FacilitiesSection,
-      QuoteSection
+      QuoteSection,
+      TrainersSection,
+      PerformanceNewsSection
     }
   }
 </script>
@@ -33,6 +37,10 @@
     <FacilitiesSection/>
 
     <QuoteSection/>
+
+    <TrainersSection/>
+
+    <PerformanceNewsSection/>
   </main>
 </template>
 

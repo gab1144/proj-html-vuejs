@@ -12,7 +12,7 @@
         <span>At Avada Gym, everything we do from top to bottom is of the highest quality to ensure we're equipped to help you reach your goals of a healthy and fit lifestyle.</span>
     </div>
 
-    <i class="chevron"></i>
+    <i class="chevron-border-section"></i>
   </section>
 </template>
 
@@ -37,24 +37,6 @@
       > span {
         display: block
       }
-    }
-    .chevron {
-    position:relative;
-    bottom: -50px;
-    left: calc(50% - 25px);
-    display:block;
-    height:50px;
-    }
-    .chevron::before,
-    .chevron::after {
-      position:absolute;
-      display:block;
-      content:"";
-      border:25px solid transparent; //chevron size
-    }
-    .chevron::before {
-      top:0;
-      border-top-color: $color-cube-shark; //chevron Color
     }
   }
 </style>
