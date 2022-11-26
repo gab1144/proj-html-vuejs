@@ -18,6 +18,9 @@
 <template>
   <section class="trainers">
     <div class="container">
+
+      <h2>Meet our trainers</h2>
+
       <div class="card-area">
         <TrainerCard
         v-for="(trainer, index) of trainers"
@@ -50,6 +53,13 @@
       @include centerFlex('vertical');
       flex-direction: column;
     }
+
+    h2 {
+      text-transform: uppercase;
+      @include divider("xx-red");
+      margin-bottom: 30px;
+    }
+
     .card-area {
       display: flex;
       justify-content: space-between;
