@@ -80,4 +80,18 @@
       }
     }
   }
+
+
+  @media screen and (max-width: 991px){
+    .trainer-card {
+      width: calc(calc(100% - 100px) /2);
+    }
+  }
+
+
+  @media screen and (max-width: 767px){
+    .trainer-card {
+      width: 100%;
+    }
+  }
   </style>

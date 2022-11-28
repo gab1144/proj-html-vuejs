@@ -62,4 +62,21 @@
       }
     }
   }
+
+  @media screen and (max-width: 991px){
+    .img-area {
+      img {
+        min-width: calc(calc(100% - 50px) / 2);
+      }
+    }
+  }
+
+  @media screen and (max-width: 575px){
+    .img-area {
+      img {
+        min-width: calc(100% - 50px);
+        margin: 0 auto;
+      }
+    }
+  }
 </style>
