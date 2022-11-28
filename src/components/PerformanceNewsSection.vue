@@ -70,4 +70,28 @@
       cursor: pointer;
     }
   }
+
+  @media screen and (max-width: 1199px){
+    .card-area {
+      min-height: 2000px;
+    }
+  }
+
+  @media screen and (max-width: 992px){
+    .card-area {
+      min-height: 3000px;
+    }
+  }
+
+  @media screen and (max-width: 767px){
+    .card-area {
+      min-height: 4500px;
+    }
+  }
+
+  @media screen and (max-width: 575px){
+    .card-area {
+      min-height: 3500px;
+    }
+  }
 </style>

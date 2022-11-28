@@ -84,4 +84,16 @@
       }
     }
   }
-  </style>
+
+  @media screen and (max-width: 1199px){
+    .news-card {
+      min-width: calc(calc(100% - 50px) /2);
+    }
+  }
+
+  @media screen and (max-width: 767px){
+    .news-card {
+      min-width: 100%;
+    }
+  }
+</style>
