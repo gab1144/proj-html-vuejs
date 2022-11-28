@@ -36,6 +36,7 @@
         @include centerFlex('horizontal');
         .button {
           width: fit-content;
+          height: fit-content;
           background: none;
           border: 1px solid $color-cube-white;
           text-transform: uppercase;
