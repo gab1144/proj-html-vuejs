@@ -20,7 +20,7 @@
     </div>
 
     <div class="text-area">
-      <p>{{review}}</p>
+      <p>"{{review}}"</p>
       <span class="name-customer"> - {{name}}</span>
     </div>
   </div>
@@ -35,6 +35,7 @@
     margin-bottom: 30px;
     max-height: 195px;
     background-color: $median-cut-shark;
+    color: $color-cube-edward;
     .img-area{
       width: calc(100% / 3);
       min-width: 195px;
@@ -47,8 +48,12 @@
       padding: 20px;
       text-align: left;
       overflow: auto;
+      p {
+        font-style: italic;
+        margin-bottom: 7px;
+      }
       .name-customer{
-
+        font-size: 18px;
       }
     }
   }

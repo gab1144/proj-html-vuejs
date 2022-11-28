@@ -69,10 +69,11 @@
     }
     .button {
       background: none;
-      border: 1px solid $color-cube-white;
-      color: $color-cube-white;
+      border: 1px solid $color-cube-edward;
+      color: $color-cube-edward;
       text-transform: uppercase;
       width: fit-content;
+      cursor: pointer;
     }
     .chevron-border-section::before {
       border-top-color: $median-cut-shark;

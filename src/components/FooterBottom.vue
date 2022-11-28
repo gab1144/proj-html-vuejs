@@ -40,6 +40,7 @@
       padding: 50px 0;
       display: flex;
       justify-content: space-between;
+      color: $color-cube-edward;
       .text-area {
         @include centerFlex('vertical');
       }

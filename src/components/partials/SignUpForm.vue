@@ -35,6 +35,9 @@
     * {
       margin-bottom: 20px;
     }
+    label{
+      color: $color-cube-edward;
+    }
     input {
       width: 100%;
       background-color: $color-cube-shark;

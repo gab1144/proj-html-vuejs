@@ -71,6 +71,7 @@
     .container {
       padding: 50px 0;
       display: flex;
+      color: $color-cube-edward;
       > div {
         width: calc(100% / 4);
         padding: 0 10px;
@@ -78,6 +79,7 @@
       h4 {
         text-transform: uppercase;
         font-weight: 100;
+        color: $color-cube-dove-grey;
       }
       ul {
         list-style: none;
@@ -86,8 +88,11 @@
           margin-top: 10px;
         }
       }
+      details p {
+        padding-top: 15px;
+      }
       details {
-        border-bottom: 1px solid $color-cube-edward;
+        border-bottom: 1px solid $color-cube-dove-grey;
         padding: 15px 0;
       }
       details > summary {
@@ -100,11 +105,12 @@
       details > summary::before {
         content: "\f054";
         font-family: FontAwesome;
+        font-size: 12px;
       }
       details[open] > summary::before {
         content: "\f078";
         font-family: FontAwesome;
-        
+        font-size: 12px;
         display: inline;
       }
       .summary-title {
@@ -112,13 +118,14 @@
         font-family: 'Josefin Sans', sans-serif;
         width: calc(100% - 20px);
         padding-left: 5px;
+        font-size: 18px;
       }
       .day,
       .time {
         display: block;
       }
       .time {
-        color: $color-cube-edward;
+        color: $color-cube-dove-grey;
       }
     }
   }

@@ -58,7 +58,7 @@
         background-color: $material-design-chestnut-rose;
         opacity: 0;
         @include centerFlex();
-        transition: .5s;
+        transition: .4s;
         &.active{
           opacity: 0.9;
         }
@@ -73,21 +73,14 @@
       padding: 30px;
       padding-bottom: 0;
       p {
+        color: $color-cube-edward;
         margin: 30px 0;
-      }
-    }
-    .link-area{
-      margin-top: 30px;
-      display: flex;
-      flex-wrap: wrap;
-      .social-link {
-        @include centerFlex();
-        min-width: 50px;
-        aspect-ratio: 1;
-        background-color: $material-design-wooksmoke;
-        margin-right: 10px;
-        margin-bottom: 30px;
-        border-radius: 5px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+           line-clamp: 4; 
+        -webkit-box-orient: vertical;
       }
     }
   }

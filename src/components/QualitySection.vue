@@ -35,7 +35,8 @@
         }
       }
       > span {
-        display: block
+        display: block;
+        color: $color-cube-edward;
       }
     }
   }

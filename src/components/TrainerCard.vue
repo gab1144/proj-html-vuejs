@@ -68,6 +68,7 @@
       padding-bottom: 0;
       p {
         margin: 30px 0;
+        color: $color-cube-edward;
       }
     }
     .link-area{

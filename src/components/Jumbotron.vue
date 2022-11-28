@@ -32,16 +32,17 @@ export default {
       font-weight: 100;
       margin-top: 10px;
       margin-bottom: 30px;
+      color: $color-cube-edward;
     }
     .button {
-      border: 1px solid $color-cube-white;
+      border: 1px solid $color-cube-edward;
       background: none;
       text-transform: uppercase;
       font-weight: 500;
       font-size: 15px;
       padding: 10px 25px;
       a {
-        color: $color-cube-white;
+        color: $color-cube-edward;
         text-decoration: none;
         width: 100%;
         height: 100%;
