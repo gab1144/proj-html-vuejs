@@ -27,12 +27,15 @@ export default {
       text-transform: uppercase;
       font-size: 75px;
       font-weight: 900;
+      text-align: center;
     }
     span {
       font-weight: 100;
       margin-top: 10px;
       margin-bottom: 30px;
       color: $color-cube-edward;
+      text-align: center;
+      padding: 0 20px;
     }
     .button {
       border: 1px solid $color-cube-edward;

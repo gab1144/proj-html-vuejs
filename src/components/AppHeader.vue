@@ -154,12 +154,18 @@
         RESPONSIVE
 ******************************/
 
-@media screen and (max-width: 1299px){
-  .hamburger-button{
-    display: block;
+  @media screen and (max-width: 1299px){
+    .hamburger-button{
+      display: block;
+    }
+    .standard-menu{
+      display: none;
+    }
   }
-  .standard-menu{
-    display: none;
+
+  @media screen and (max-width: 991px){
+    .logo img{
+      max-height: 100px;
+      }
   }
-}
 </style>
