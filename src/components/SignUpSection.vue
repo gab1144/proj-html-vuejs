@@ -39,4 +39,20 @@
       }
     }
   }
+
+/******************************
+        RESPONSIVE
+******************************/
+@media screen and (max-width: 767px){
+    .container {
+      display: flex;
+      flex-direction: column;
+      > div {
+        width: 100%;
+      }
+      .img-area {
+        width: 100%;
+      }
+    }
+  }
 </style>
