@@ -47,4 +47,16 @@
       font-weight: 100;
     }
   }
+
+  @media screen and (max-width: 991px){
+    .icon-card {
+      min-width: calc(100% / 2);
+    }
+  }
+
+  @media screen and (max-width: 575px){
+    .icon-card {
+      min-width: 100%;
+    }
+  }
 </style>

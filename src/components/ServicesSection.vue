@@ -37,9 +37,12 @@
     text-align: center;
     position: relative;
     background-image: url("../assets/img/gym_bkgd_bw-compressor.jpg");
+    background-size: cover;
     background-position: center;
     .container {
       @include sectionContainer();
+      display: flex;
+      flex-wrap: wrap;
     }
   }
 </style>
