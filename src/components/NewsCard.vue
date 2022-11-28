@@ -25,7 +25,9 @@
   @mouseleave="isHover = false">
     <div class="img-area">
       <img :src="getImagePath(img)" :alt="title">
-      <div class="hover-img" v-if="isHover">
+      
+      <div class="hover-img"
+      :class="{'active': isHover}">
         <a href="#"><i class="fa-solid fa-link"></i></a>
         <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
       </div>
@@ -54,8 +56,12 @@
       .hover-img{
         @include hoverDiv();
         background-color: $material-design-chestnut-rose;
-        opacity: 0.9;
+        opacity: 0;
         @include centerFlex();
+        transition: .5s;
+        &.active{
+          opacity: 0.9;
+        }
       }
       .hover-img a {
         margin: 0 10px;
