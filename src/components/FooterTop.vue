@@ -130,9 +130,9 @@
     }
   }
 
-
-  
-
+/******************************
+        RESPONSIVE
+******************************/
   @media screen and (max-width: 991px){
     .container {
       flex-wrap: wrap;

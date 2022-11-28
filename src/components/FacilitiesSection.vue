@@ -63,6 +63,10 @@
     }
   }
 
+/******************************
+        RESPONSIVE
+******************************/
+
   @media screen and (max-width: 991px){
     .img-area {
       img {

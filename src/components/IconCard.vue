@@ -48,6 +48,10 @@
     }
   }
 
+/******************************
+        RESPONSIVE
+******************************/
+
   @media screen and (max-width: 991px){
     .icon-card {
       min-width: calc(100% / 2);

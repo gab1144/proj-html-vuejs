@@ -81,7 +81,9 @@
     }
   }
 
-
+/******************************
+        RESPONSIVE
+******************************/
   @media screen and (max-width: 991px){
     .trainer-card {
       width: calc(calc(100% - 100px) /2);

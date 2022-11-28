@@ -71,6 +71,9 @@
     }
   }
 
+/******************************
+        RESPONSIVE
+******************************/
   @media screen and (max-width: 1199px){
     .card-area {
       min-height: 2000px;

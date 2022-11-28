@@ -85,6 +85,9 @@
     }
   }
 
+/******************************
+        RESPONSIVE
+******************************/
   @media screen and (max-width: 1199px){
     .news-card {
       min-width: calc(calc(100% - 50px) /2);
