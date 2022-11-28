@@ -56,4 +56,21 @@
       }
     }
   }
+
+  @media screen and (max-width: 991px){
+    .container {
+      flex-direction: column;
+      align-items: center;
+      .text-area {
+        margin-bottom: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        span {
+          display: block;
+          min-width: 100%;
+          text-align: center;
+        }
+      }
+    }
+  }
 </style>
