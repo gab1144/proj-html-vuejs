@@ -129,4 +129,27 @@
       }
     }
   }
+
+
+  
+
+  @media screen and (max-width: 991px){
+    .container {
+      flex-wrap: wrap;
+      > div {
+        min-width: calc(100% / 2);
+        padding: 0 10px;
+      }
+    }
+  }
+
+  @media screen and (max-width: 767px){
+    .container {
+      flex-wrap: wrap;
+      > div {
+        min-width: 100%;
+        margin: 20px 0;
+      }
+    }
+  }
 </style>
