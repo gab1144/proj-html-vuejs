@@ -57,4 +57,10 @@
       }
     }
   }
+
+  @media screen and (max-width: 991px){
+    .review-card {
+    width: 100%;
+    }
+  }
 </style>
