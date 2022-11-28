@@ -53,9 +53,14 @@
     width: calc(calc(100% - 100px) /3);
     background-color: $color-cube-shark;
     margin-bottom: 30px;
+    &:hover img {
+      transform: scale(1.05);
+    }
     .img-area{
       img{
         width: 100%;
+        transition: 0.5s ;
+        
       }
     }
     .text-area{

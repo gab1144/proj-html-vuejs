@@ -54,6 +54,10 @@
         img {
           width: calc(calc(100% - 50px) / 3);
           margin-bottom: 25px;
+          transition: 0.5s ;
+          &:hover {
+            transform: scale(1.05);
+          }
         }
       }
     }
